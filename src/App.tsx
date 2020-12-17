@@ -6,18 +6,17 @@ function App(): JSX.Element {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Welcome to ForgeFitnessCo! WOOOO
-        </a>
+        <div>
+          <img
+            style={{ width: '500px' }}
+            src={
+              'https://storage.googleapis.com/forgefitnessco/ronin_freyja.jpg'
+            }
+            alt="logo"
+          />
+        </div>
+
+        <p>Welcome to ForgeFitnessCo! WOOOO</p>
       </header>
     </div>
   )
